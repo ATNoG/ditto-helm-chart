@@ -28,6 +28,6 @@ entries:
     - https://github.com/eclipse-ditto/ditto
     type: application
     urls:
-    - https://github.com/ATNoG/ditto-helm-chart/charts/ditto.tgz
+    - https://ATNoG.github.io/ditto-helm-chart/charts/ditto.tgz
     version: 3.5.12
 generated: "2024-07-29T17:28:25.382914351+01:00"
