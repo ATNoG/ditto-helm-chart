@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   ditto:
   - apiVersion: v2
-    appVersion: 3.5.3
-    created: "2024-03-19T16:41:58.667060399Z"
+    appVersion: 3.5.10
+    created: "2024-07-29T17:28:25.398761352+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -13,7 +13,7 @@ entries:
       pattern called “digital twins”. A digital twin is a virtual, cloud based, representation
       of his real world counterpart (real world “Things”, e.g. devices like sensors,
       smart heating, connected cars, smart grids, EV charging stations etc). '
-    digest: ebeed82ae3aa19e2014aba7fae12939ac29feb5cfa2184fb9f5339bb3b94ad6f
+    digest: d35f568d3e5cc5f4a8fae256b0c36793ca8640440895c4f5d142ebe5324f8b5b
     home: https://www.eclipse.dev/ditto
     icon: https://www.eclipse.dev/ditto/images/ditto.svg
     keywords:
@@ -28,7 +28,6 @@ entries:
     - https://github.com/eclipse-ditto/ditto
     type: application
     urls:
-    - https://ATNoG.github.io/ditto-helm-chart/charts/ditto.tgz
-    version: 3.6.1
-generated: "2024-03-19T16:41:58.621741296Z"
-
+    - https://github.com/ATNoG/ditto-helm-chart/charts/ditto.tgz
+    version: 3.5.12
+generated: "2024-07-29T17:28:25.382914351+01:00"
