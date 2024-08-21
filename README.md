@@ -12,13 +12,13 @@ helm package <chart-name>
 2. Move the packaged chart to the repo /charts directory
 
 ```bash
-mv <chart-name>.tgz ditto-helm-chart/charts
+mv <chart-name>.tgz charts/
 ```
 
 3. Update the index.yaml
 
 ```bash
-helm repo index ditto-helm-chart --url https://ATNoG.github.io/ditto-helm-chart
+helm repo index . --url https://ATNoG.github.io/ditto-helm-chart
 ```
 
 4. Commit and push the changes
