@@ -3,7 +3,7 @@ entries:
   ditto:
   - apiVersion: v2
     appVersion: 3.5.10
-    created: "2024-08-21T14:44:25.735692603Z"
+    created: "2024-09-02T13:25:42.646179914Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -13,7 +13,7 @@ entries:
       pattern called “digital twins”. A digital twin is a virtual, cloud based, representation
       of his real world counterpart (real world “Things”, e.g. devices like sensors,
       smart heating, connected cars, smart grids, EV charging stations etc). '
-    digest: d35f568d3e5cc5f4a8fae256b0c36793ca8640440895c4f5d142ebe5324f8b5b
+    digest: a0f73435825a59f6cd06550e47d47c1ddd339526130a154b20d6a5b532441bb1
     home: https://www.eclipse.dev/ditto
     icon: https://www.eclipse.dev/ditto/images/ditto.svg
     keywords:
@@ -29,11 +29,11 @@ entries:
     type: application
     urls:
     - https://ATNoG.github.io/ditto-helm-chart/charts/ditto.tgz
-    version: 3.5.12
+    version: 3.5.17
   hono:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2024-08-21T14:44:25.818654851Z"
+    created: "2024-09-02T13:25:42.701193207Z"
     dependencies:
     - condition: prometheus.createInstance
       name: prometheus
@@ -54,7 +54,7 @@ entries:
     description: 'Eclipse Hono™ provides remote service interfaces for connecting
       large numbers of IoT devices to a back end and interacting with them in a uniform
       way regardless of the device communication protocol. '
-    digest: cb1f92da3f10492dd1cfabef08821878c606b91490c8b0b491b70052ec238abb
+    digest: c5108f7a3023ad65ccfc7a1df9ea74ffb5e64c54b38598344471cd1c53c85aee
     home: https://www.eclipse.org/hono/
     icon: https://eclipse.dev/hono/img/hono-logo_image.svg
     keywords:
@@ -74,4 +74,4 @@ entries:
     urls:
     - https://ATNoG.github.io/ditto-helm-chart/charts/hono.tgz
     version: 2.6.3
-generated: "2024-08-21T14:44:25.70620941Z"
+generated: "2024-09-02T13:25:42.61502922Z"

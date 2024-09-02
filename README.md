@@ -1,6 +1,15 @@
 # ditto-helm-chart
 Helm Chart Repo for Eclipse Ditto
 
+## Submodules
+
+This repository contains a submodule with the source code of the packages. To clone the repository with all submodules, use:
+
+```bash
+git clone --recurse-submodules -j8 git@github.com:ATNoG/ditto-helm-chart.git
+cd ditto-helm-chart
+```
+
 ## Add/Edit chart to the repo
 
 1. Package the chart
