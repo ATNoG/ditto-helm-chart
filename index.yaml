@@ -3,7 +3,7 @@ entries:
   cloud2edge:
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2024-09-02T13:47:47.169076124Z"
+    created: "2024-09-02T14:04:50.463965862Z"
     dependencies:
     - name: hono
       repository: https://ATNoG.github.io/ditto-helm-chart/
@@ -14,7 +14,7 @@ entries:
     description: 'Eclipse IoT Cloud2Edge (C2E) is an integrated suite of services
       developers can use to build IoT applications that are deployed from the cloud
       to the edge. The suite currently consists of Eclipse Hono and Eclipse Ditto. '
-    digest: 1fb6b1817c3919f01eac0b9c2736441bb6270e552a382cb4f0e0875521c7e343
+    digest: 5e9209a83e483968524b3e42beac99acb47f38cd157b728af9769b9f4989e1de
     home: https://eclipse.org/packages/packages/cloud2edge/
     icon: https://eclipse.org/packages/packages/cloud2edge/images/c2e-logo.svg
     keywords:
@@ -36,7 +36,7 @@ entries:
   ditto:
   - apiVersion: v2
     appVersion: 3.5.10
-    created: "2024-09-02T13:47:47.189780518Z"
+    created: "2024-09-02T14:04:50.495883794Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -66,7 +66,7 @@ entries:
   hono:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2024-09-02T13:47:47.248572962Z"
+    created: "2024-09-02T14:04:50.582901895Z"
     dependencies:
     - condition: prometheus.createInstance
       name: prometheus
@@ -107,4 +107,4 @@ entries:
     urls:
     - https://ATNoG.github.io/ditto-helm-chart/charts/hono.tgz
     version: 2.6.3
-generated: "2024-09-02T13:47:47.086103189Z"
+generated: "2024-09-02T14:04:50.37710478Z"
