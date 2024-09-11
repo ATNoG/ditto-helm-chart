@@ -43,14 +43,13 @@ jobs:
           mkdir -p /tmp/site
           cp -r _site/* /tmp/site
 
-          ## Ditto
-          cp -r src/charts/ditto/deployment/helm/ditto /tmp/site
+          # Copy every chart in /charts to /tmp/site renaming them to not have .tgz extension
+          for chart in $(find charts -name '*.tgz'); do
+            cp $chart /tmp/site/$(basename $chart .tgz)
+          done
 
-          ## Hono
-          cp -r src/charts/hono /tmp/site
-
-          ## Cloud2Edge
-          cp -r src/packages/cloud2edge /tmp/site
+          # Show charts in root directory
+          ls -l /tmp/site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
