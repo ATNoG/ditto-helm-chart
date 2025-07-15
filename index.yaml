@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   cloud2edge:
   - apiVersion: v2
-    appVersion: 0.9.1
+    appVersion: 0.9.2
     created: "2024-09-02T14:04:50.463965862Z"
     dependencies:
     - name: hono
       repository: https://ATNoG.github.io/ditto-helm-chart/
-      version: ~2.6.3
+      version: ~2.6.4
     - name: ditto
       repository: https://ATNoG.github.io/ditto-helm-chart/
       version: ~3.5.17
@@ -32,7 +32,7 @@ entries:
     - https://github.com/eclipse/packages/tree/master/packages/cloud2edge
     urls:
     - https://ATNoG.github.io/ditto-helm-chart/charts/cloud2edge.tgz
-    version: 0.9.1
+    version: 0.9.2
   ditto:
   - apiVersion: v2
     appVersion: 3.5.10
@@ -106,5 +106,5 @@ entries:
     - https://github.com/eclipse-hono/hono
     urls:
     - https://ATNoG.github.io/ditto-helm-chart/charts/hono.tgz
-    version: 2.6.3
+    version: 2.6.4
 generated: "2024-09-02T14:04:50.37710478Z"
