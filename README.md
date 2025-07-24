@@ -34,4 +34,6 @@ helm repo index . --url https://ATNoG.github.io/ditto-helm-chart
 
 ## Run the chart
 
+```bash
 helm install -n cloud2edge -f <values.yaml> c2e https://atnog.github.io/ditto-helm-chart/cloud2edge
+```
