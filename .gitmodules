@@ -1,4 +1,0 @@
-[submodule "src"]
-	path = src
-	url = https://github.com/ATNoG/eclipse-packages
-	branch = atnog-packages
