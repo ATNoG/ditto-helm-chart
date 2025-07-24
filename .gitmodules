@@ -1,0 +1,4 @@
+[submodule "eclipse-packages"]
+	path = eclipse-packages
+	url = git@github.com:ATNoG/eclipse-packages.git
+	branch = atnog-packages
