@@ -3,18 +3,18 @@ entries:
   cloud2edge:
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2024-09-02T14:04:50.463965862Z"
+    created: "2025-07-24T11:50:28.983675457+01:00"
     dependencies:
     - name: hono
       repository: https://ATNoG.github.io/ditto-helm-chart/
       version: ~2.6.4
     - name: ditto
       repository: https://ATNoG.github.io/ditto-helm-chart/
-      version: ~3.5.17
+      version: ~3.5.10
     description: 'Eclipse IoT Cloud2Edge (C2E) is an integrated suite of services
       developers can use to build IoT applications that are deployed from the cloud
       to the edge. The suite currently consists of Eclipse Hono and Eclipse Ditto. '
-    digest: 5e9209a83e483968524b3e42beac99acb47f38cd157b728af9769b9f4989e1de
+    digest: f3bdaaecbd5a3a284bcac813c22045dd0ece9f583aaefe04e4e431ddf9a8915d
     home: https://eclipse.org/packages/packages/cloud2edge/
     icon: https://eclipse.org/packages/packages/cloud2edge/images/c2e-logo.svg
     keywords:
@@ -36,7 +36,7 @@ entries:
   ditto:
   - apiVersion: v2
     appVersion: 3.5.10
-    created: "2024-09-02T14:04:50.495883794Z"
+    created: "2025-07-24T11:50:28.99203534+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -66,7 +66,7 @@ entries:
   hono:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2024-09-02T14:04:50.582901895Z"
+    created: "2025-07-24T11:50:28.996731296+01:00"
     dependencies:
     - condition: prometheus.createInstance
       name: prometheus
@@ -87,7 +87,7 @@ entries:
     description: 'Eclipse Hono™ provides remote service interfaces for connecting
       large numbers of IoT devices to a back end and interacting with them in a uniform
       way regardless of the device communication protocol. '
-    digest: c5108f7a3023ad65ccfc7a1df9ea74ffb5e64c54b38598344471cd1c53c85aee
+    digest: d381330dec9f6c9c6f73a02383abd02b2d90cd34b5816407fc231b2dec9ad8d3
     home: https://www.eclipse.org/hono/
     icon: https://eclipse.dev/hono/img/hono-logo_image.svg
     keywords:
@@ -107,4 +107,4 @@ entries:
     urls:
     - https://ATNoG.github.io/ditto-helm-chart/charts/hono.tgz
     version: 2.6.4
-generated: "2024-09-02T14:04:50.37710478Z"
+generated: "2025-07-24T11:50:28.970101007+01:00"
