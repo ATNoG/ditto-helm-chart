@@ -3,7 +3,7 @@ entries:
   cloud2edge:
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2025-07-24T11:50:28.983675457+01:00"
+    created: "2025-07-24T15:56:08.507800457+01:00"
     dependencies:
     - name: hono
       repository: https://ATNoG.github.io/ditto-helm-chart/
@@ -36,7 +36,7 @@ entries:
   ditto:
   - apiVersion: v2
     appVersion: 3.5.10
-    created: "2025-07-24T11:50:28.99203534+01:00"
+    created: "2025-07-24T15:56:08.515494634+01:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -46,7 +46,7 @@ entries:
       pattern called “digital twins”. A digital twin is a virtual, cloud based, representation
       of his real world counterpart (real world “Things”, e.g. devices like sensors,
       smart heating, connected cars, smart grids, EV charging stations etc). '
-    digest: a0f73435825a59f6cd06550e47d47c1ddd339526130a154b20d6a5b532441bb1
+    digest: 796be85af4b305a9bd682f53f4f2b139f4705c0589eccd526abfe8d36f849ada
     home: https://www.eclipse.dev/ditto
     icon: https://www.eclipse.dev/ditto/images/ditto.svg
     keywords:
@@ -66,7 +66,7 @@ entries:
   hono:
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2025-07-24T11:50:28.996731296+01:00"
+    created: "2025-07-24T15:56:08.535492215+01:00"
     dependencies:
     - condition: prometheus.createInstance
       name: prometheus
@@ -87,7 +87,7 @@ entries:
     description: 'Eclipse Hono™ provides remote service interfaces for connecting
       large numbers of IoT devices to a back end and interacting with them in a uniform
       way regardless of the device communication protocol. '
-    digest: d381330dec9f6c9c6f73a02383abd02b2d90cd34b5816407fc231b2dec9ad8d3
+    digest: 5ce575ad9acb42f7b7e5fc434393220e3d166124cc9714c016f575f85928413d
     home: https://www.eclipse.org/hono/
     icon: https://eclipse.dev/hono/img/hono-logo_image.svg
     keywords:
@@ -107,4 +107,4 @@ entries:
     urls:
     - https://ATNoG.github.io/ditto-helm-chart/charts/hono.tgz
     version: 2.6.4
-generated: "2025-07-24T11:50:28.970101007+01:00"
+generated: "2025-07-24T15:56:08.494224955+01:00"
